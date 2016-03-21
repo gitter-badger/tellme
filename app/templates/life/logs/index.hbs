@@ -1,0 +1,15 @@
+<h2>
+    All logs
+</h2>
+<div>
+    {{#each model as |log|}}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                {{log.created_on}}
+            </div>
+            <div class="panel-body">
+                {{log.log}}
+            </div>
+        </div>
+    {{/each}}
+</div>
