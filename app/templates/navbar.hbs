@@ -12,5 +12,19 @@
             </button>
             {{#link-to 'index' class="navbar-brand"}}tellme{{/link-to}}
         </div>
+
+        <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Personal<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        {{#link-to 'life/logs.index' tagName="li"}}<a href="">Logs - Listing</a>{{/link-to}}
+                        {{#link-to 'life/logs.new' tagName="li"}}<a href="">Logs - New</a>{{/link-to}}
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
