@@ -42,7 +42,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.firebase = 'https://fbtellme-prod.firebaseio.com/';
   }
 
   return ENV;
