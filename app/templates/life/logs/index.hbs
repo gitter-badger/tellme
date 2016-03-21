@@ -6,6 +6,9 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 {{log.created_on}}
+                {{#if (isPrivate log.scope)}}
+                    <span class="label label-danger">Private</span>
+                {{/if}}
             </div>
             <div class="panel-body">
                 {{{breaklines log.log}}}
