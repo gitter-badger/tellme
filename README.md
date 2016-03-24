@@ -1,5 +1,7 @@
 # Tellme
 
+[![Join the chat at https://gitter.im/jitendra-1217/tellme](https://badges.gitter.im/jitendra-1217/tellme.svg)](https://gitter.im/jitendra-1217/tellme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Visit [fbtellme](https://fbtellme.firebaseapp.com/).
 
 Work In Progress..
